@@ -1,6 +1,5 @@
-package com.mall.concruency.example.count;
+package com.mall.concruency.example.atomic;
 
-import com.mall.concruency.annotation.NotThreadSafe;
 import com.mall.concruency.annotation.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
@@ -18,7 +17,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 @Slf4j
 @ThreadSafe
-public class CountExample2 {
+public class AtomicExample1 {
 
     //请求总数
     public static int clientTotal = 5000;
